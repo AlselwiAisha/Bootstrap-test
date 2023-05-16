@@ -5,6 +5,11 @@
     font-family: "Poppins", sans-serif;
   }
 
+  body{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+  }
   ul li{
     list-style: none;
   }
