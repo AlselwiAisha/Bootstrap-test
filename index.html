@@ -15,7 +15,7 @@
  
  <!------------------Header------------------->
 
- <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+ <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top bg-white">
     <div class="container-fluid d-flex justify-content-between">
       <a class="navbar-brand" href="#">Navbar</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -74,12 +74,12 @@
          <p class="card-text"><small class="text-muted">A daily selection of privately personalized reads;
             no accounts or sign-ups required.</small></p>
             <ul class="work-list d-flex justify-content-start">
-                <li class="m-1"><a href=""> html</a></li>
-                <li class="desktop_link m-1"><a href=""> Ruby on rails</a></li>
-                <li class="m-1"><a href=""> css</a></li>
-                <li class="m-1"><a href=""> javaScript</a></li>
+                <li class=" btn-info m-1"><a href=""> html</a></li>
+                <li class="btn-info desktop_link m-1"><a href=""> Ruby on rails</a></li>
+                <li class="btn-info m-1"><a href=""> css</a></li>
+                <li class="btn-info m-1"><a href=""> javaScript</a></li>
               </ul>
-              <button class="btn">See project</button>
+              <button class="btn btn-primary">See project</button>
         </div>
       </div>
     </div>
@@ -103,12 +103,12 @@
          <p class="card-text"><small class="text-muted">Experimental content creation feature that allows users to add to an existing story over the 
             course of a day without spamming their friends.</small></p>
             <ul class="work-list d-flex justify-content-start">
-                <li class="m-1"><a href=""> html</a></li>
-                <li class="desktop_link m-1"><a href=""> Ruby on rails</a></li>
-                <li class="m-1"><a href=""> css</a></li>
-                <li class="m-1"><a href=""> javaScript</a></li>
+                <li class="btn-info m-1"><a href=""> html</a></li>
+                <li class="btn-info desktop_link m-1"><a href=""> Ruby on rails</a></li>
+                <li class="btn-info m-1"><a href=""> css</a></li>
+                <li class="btn-info m-1"><a href=""> javaScript</a></li>
               </ul>
-              <button class="btn">See project</button>
+              <button class="btn btn-primary">See project</button>
         </div>
       </div>
     </div>
@@ -131,12 +131,12 @@
          <p class="card-text"><small class="text-muted">Exploring the future of media in Facebook's first Virtual Reality app; a place to 
             discover and enjoy 360 photos and videos on Gear VR.</small></p>
             <ul class="work-list d-flex justify-content-start">
-                <li class="m-1"><a href=""> html</a></li>
-                <li class="desktop_link m-1"><a href=""> Ruby on rails</a></li>
-                <li class="m-1"><a href=""> css</a></li>
-                <li class="m-1"><a href=""> javaScript</a></li>
+                <li class="btn-info m-1"><a href=""> html</a></li>
+                <li class="btn-info desktop_link m-1"><a href=""> Ruby on rails</a></li>
+                <li class="btn-info m-1"><a href=""> css</a></li>
+                <li class="btn-info m-1"><a href=""> javaScript</a></li>
               </ul>
-              <button class="btn">See project</button>
+              <button class="btn btn-primary">See project</button>
         </div>
       </div>
     </div>
@@ -159,12 +159,12 @@
          <p class="card-text"><small class="text-muted">A smart assistant to make driving more safe,
             efficient, and fun by unlocking your most expensive computer: your car.</small></p>
             <ul class="work-list d-flex justify-content-start">
-                <li class="m-1"><a href=""> html</a></li>
-                <li class="desktop_link m-1"><a href=""> Ruby on rails</a></li>
-                <li class="m-1"><a href=""> css</a></li>
-                <li class="m-1"><a href=""> javaScript</a></li>
+                <li class="btn-info m-1"><a href=""> html</a></li>
+                <li class="btn-info desktop_link m-1"><a href=""> Ruby on rails</a></li>
+                <li class="btn-info m-1"><a href=""> css</a></li>
+                <li class="btn-info m-1"><a href=""> javaScript</a></li>
               </ul>
-              <button class="btn">See project</button>
+              <button class="btn btn-primary">See project</button>
         </div>
       </div>
     </div>
@@ -186,22 +186,22 @@
           <li><a href="#"><img class="icon m-2" src="./Images/angellist.svg" alt=""></a></li>
         </ul>
      </div>
-  <button class="btn">Get my resume</button>
+  <button class="btn btn-primary">Get my resume</button>
 </div>
 <div class="about-l col-6">
 <ul class="aboutme-list">
   <li> <div class="Languages"><h2>Languages</h2> <i class='bx bx-chevron-down'></i></div> 
    <ul class="lang row">
-      <li class="lang-bord col">
+      <li class="lang-bord col border border-light bg-light">
         <img src="./Images/js.png" alt="">
         <h3 class="m-2">JavaScript</h3>
       </li>
-      <li class="lang-bord col">
+      <li class="lang-bord col border border-light bg-light">
         <img class="m-2"src="./Images/html.png" alt="">
         <h3>HTML</h3>
 
       </li>
-      <li class="lang-bord col">
+      <li class="lang-bord col border border-light bg-light">
          <img class="m-2" src="./Images/css.png" alt="">
          <h3>CSS</h3>
       </li>
@@ -214,19 +214,28 @@
 
 </ul>
 </section>
-<section class="contact-me">
+<section class="contact-me  d-flex flex-column align-items-center">
   <h2 class="contact-me-title white"> Contact me</h2>
   <p class="contact-me-summary white fs-5">If you have an application you are interested in developing, 
     a feature that you need built or a project that needs coding. 
     I’d love to help with it!</p>
-    <form action="https://formspree.io/f/xayzvgzv" method="POST" class="contact-form d-flex justify-content-center">
-      <input type="text" name="name" id="name" class="form-i" maxlength="30" placeholder="Lorem Ipsum" required>
-      <input type="email" name="email" id="email" class="form-i" placeholder="loremipsum@gmail.com" required>
-      <textarea name="message" rows="4" maxlength="500" placeholder="Write your message here..." required></textarea>
-      <!-- your other form fields go here -->
-      <button type="submit" class="btn final-btn">Get in touch</button>
-   </form>
-</section>
+    <form action="https://formspree.io/f/xayzvgzv" method="POST" class="w-50">
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">s</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" maxlength="30" placeholder="Lorem Ipsum" required>
+       </div>
+      <div class="mb-3">
+        <label for="email" class="form-label"></label>
+        <input type="email" class="form-control" id="email" placeholder="loremipsum@gmail.com" required>
+      </div>
+      <div class="form-floating">
+        <textarea class="form-control" maxlength="500" placeholder="Write your message here..." required id="floatingTextarea2" ></textarea>
+        <label for="floatingTextarea2">Comments</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Get in touch</button>
+    </form>
+
+   </section>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
