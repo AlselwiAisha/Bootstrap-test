@@ -37,4 +37,8 @@
       background-position: right;
       background-repeat: no-repeat;
     }
+    #About-container{
+      border-top-right-radius: 100px;
+      width: 100%;
+    }
 }
