@@ -60,7 +60,7 @@ I'm using mainly html and css for building this project.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> --[Live Demo](https://alselwiaisha.github.io/AishaPortfolio/)
+> coming soon
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -85,7 +85,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone https://github.com/AlselwiAisha/AishaPortfolio.git
+  git clone https://github.com/AlselwiAisha/Bootstrap-test.git
 ```
 
 ### Install
@@ -153,7 +153,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/AlselwiAisha/AishaPortfolio/issues/).
+Feel free to check the [issues page](https://github.com/AlselwiAisha/Bootstrap-test/issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
